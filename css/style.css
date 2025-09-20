@@ -1,0 +1,52 @@
+body {
+    font-size: 25px;
+}
+
+a,
+.nav-link {
+    color: red;
+    transition: 300ms;
+}
+
+a:hover,
+.nav-link:hover {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 900;
+    transition: 300ms;
+}
+
+a:active,
+.nav-link:active {
+    color: blue;
+}
+
+header {
+    background: rgb(75, 175, 233);
+    color: white;
+}
+
+main {
+    background: rgb(240, 240, 240);
+}
+
+footer {
+    background: rgb(22, 22, 22);
+    color: white;
+}
+
+.header-h1 {
+    text-align: center;
+     margin: 20px 0;     
+}
+
+.header {
+    background-image: url('../images/header-bg.jpg'); 
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    color: white;                
+    padding: 60px 0;              
+    text-align: center;           
+    
+}

@@ -1,0 +1,38 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+a,
+.nav-link {
+    color: red;
+    transition: 300ms;
+}
+
+a:hover,
+.nav-link:hover {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 900;
+    transition: 300ms;
+}
+
+a:active,
+.nav-link:active {
+    color: blue;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+main {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+footer {
+    background: rgb(22, 22, 22);
+    color: white;
+}
